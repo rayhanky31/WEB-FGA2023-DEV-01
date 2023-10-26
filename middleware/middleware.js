@@ -41,7 +41,7 @@ function CheckPostReq(req, res, next) {
 
 
 module.exports = {
-    // PrintSuccess,
-    // PrintSuccessRoute,
+    PrintSuccess,
+    PrintSuccessRoute,
     CheckPostReq
 }

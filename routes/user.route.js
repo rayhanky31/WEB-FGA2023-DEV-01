@@ -12,5 +12,9 @@ router.get('/', PrintSuccessRoute, TestUser)
 
 router.post('/', CheckPostReq, TestUserPost)
 
+router.get('/', TestUser)
+
+
+
 
 module.exports = router
