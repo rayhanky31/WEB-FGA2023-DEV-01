@@ -8,7 +8,7 @@ const { PrintSuccess,
 
 router.use(PrintSuccess)
 
-router.get('/', TestUser)
+router.get('/', PrintSuccessRoute, TestUser)
 
 router.post('/', CheckPostReq, TestUserPost)
 
